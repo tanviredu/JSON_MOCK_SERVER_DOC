@@ -3,7 +3,7 @@ module.exports = {
     "redisurl":"redis-12777.c232.us-east-1-2.ec2.cloud.redislabs.com",
     "redisport":12777,
     "port": process.env.PORT || 3000,
-    "password":"passwordTanvir123",
+    "password":"",
     "secrets": process.env.JWT || "secret",
     "expiretime": 24 * 60 * 10
 }
